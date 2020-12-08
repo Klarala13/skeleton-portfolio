@@ -72,11 +72,13 @@ a.list-link:hover {
 .dropbtn {
   color: #777;
 }
+
 /*Intro*/
 .name-header {
   padding: 10%;
   margin: 5%;
 }
+
 /*Projects*/
 .card {
   padding: 2%;
@@ -84,7 +86,7 @@ a.list-link:hover {
   margin-bottom: 3%;
 }
 .description {
-  height: 40%;
+  height: 50%;
 }
 /*About*/
 #about,
