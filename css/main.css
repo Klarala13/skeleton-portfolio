@@ -100,6 +100,14 @@ a.list-link:hover {
   padding: 2%;
   margin-left: 5%;
 }
+a {
+  color: darkred;
+  text-decoration: none;
+}
+a:hover {
+  color: darkred;
+  text-decoration: underline;
+}
 /*Contact Form*/
 .contact-title {
   color: darkred;
