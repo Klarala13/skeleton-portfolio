@@ -1,0 +1,189 @@
+/* Global */
+* {
+  box-sizing: border-box;
+}
+.h5red {
+  color: darkred;
+  height: 50px;
+}
+/* Nav */
+.list {
+  background: #fff;
+  padding-top: 0;
+  padding-bottom: 0;
+  -webkit-box-shadow: 0 1px 0 rgb(129, 126, 126);
+  box-shadow: 0 1px 0 rgb(129, 126, 126);
+  width: 100%;
+  position: relative;
+  list-style: none;
+  text-align: center;
+  margin-top: 2%;
+}
+.list,
+.list-item,
+.list-link {
+  color: #777;
+  font-style: italic;
+  display: inline-block;
+  text-decoration: none;
+  padding: 2px 10px 2px 10px;
+}
+.list,
+a.list-link-active,
+a.list-link:hover {
+  color: #333;
+}
+.dropbtn {
+  border: none;
+  color: #777;
+  font-style: italic;
+  display: inline-block;
+  text-decoration: none;
+  padding: 2px 10px 2px 10px;
+}
+.dropbtn:hover {
+  color: #333;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 2px 10px 2px 10px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown:hover,
+.dropbtn {
+  color: #777;
+}
+/*Intro*/
+.name-header {
+  padding: 10%;
+  margin: 5%;
+}
+/*Projects*/
+.card {
+  padding: 2%;
+  height: 240px;
+  margin-bottom: 3%;
+}
+.description {
+  height: 40%;
+}
+/*About*/
+#about,
+#contact {
+  margin: 5%;
+}
+.about-img {
+  width: 200px;
+  border-radius: 25%;
+  margin-left: 5%;
+}
+.about-header {
+  padding: 2%;
+  margin-left: 5%;
+}
+/*Contact Form*/
+.contact-title {
+  color: darkred;
+}
+.form {
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 30px;
+  background: #ffffff;
+  max-width: 400px;
+  width: 100%;
+  position: relative;
+  margin: 5% auto;
+}
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea {
+  width: 100%;
+  border: 1px solid rgb(100, 94, 94);
+  background: #fff;
+  margin: 0 5px;
+  padding: 10px;
+}
+#contact {
+  background: #f9f9f9;
+  padding: 25px;
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+fieldset {
+  border: medium none !important;
+  margin: 0 0 10px;
+  min-width: 90%;
+  padding: 0;
+  width: 90%;
+}
+#contact input[type="text"]:hover,
+#contact input[type="email"]:hover,
+#contact input[type="tel"]:hover,
+#contact input[type="url"]:hover,
+#contact textarea:hover {
+  -webkit-transition: border-color 0.3s ease-in-out;
+  -moz-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  border: 1px solid #aaa;
+}
+#contact-submit {
+  margin-left: 35%;
+}
+#contact input:focus,
+#contact textarea:focus {
+  outline: 0;
+  border: 1px solid #999;
+}
+::-webkit-input-placeholder {
+  color: #888;
+}
+:-moz-placeholder {
+  color: #888;
+}
+:-ms-input-placeholder {
+  color: #888;
+}
+/*Footer*/
+footer {
+  margin: 3%;
+}
+.fab {
+  color: darkred;
+  margin-bottom: 2%;
+  align-items: center;
+}
+.row {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.icon {
+  text-decoration: none;
+  width: 10%;
+}
+/*check check check if this gets deployed*/
