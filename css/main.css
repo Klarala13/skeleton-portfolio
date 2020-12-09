@@ -4,7 +4,7 @@
 }
 .h5red {
   color: darkred;
-  height: 50px;
+  height: 30px;
 }
 /* Nav */
 .list {
@@ -86,7 +86,7 @@ a.list-link:hover {
   margin-bottom: 3%;
 }
 .description {
-  height: 50%;
+  height: 60%;
 }
 /*About*/
 #about,
